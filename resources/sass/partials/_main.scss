@@ -1,0 +1,22 @@
+main{
+    background-color: #1c1c1c;
+    padding-top: 30px;
+
+    .list{
+        display: flex;
+        flex-wrap: wrap;
+
+        .card{
+            width: calc((100% / 6) - 10px);
+            margin-bottom: 20px;
+            margin: 5px;
+            img{
+                height: 200px;
+                object-fit: cover;   
+            }
+            h3{
+                color: white;
+            }
+        }
+    }
+}
