@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+._head {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+._head .logo {
+  width: 100px;
+}
+
+._head ul {
+  list-style-type: none;
+  display: flex;
+}
+
+._head ul li {
+  font-weight: bold;
+  color: gray;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.banner {
+  width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
