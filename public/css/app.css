@@ -31,6 +31,10 @@
   cursor: pointer;
 }
 
+._head ul li.current {
+  color: #0282f9;
+}
+
 .banner {
   width: 100%;
   height: 400px;

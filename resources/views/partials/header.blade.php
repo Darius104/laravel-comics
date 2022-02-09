@@ -4,7 +4,7 @@
             <img class="logo" src="{{ asset('images/dc-logo.png') }}" alt="">
             <ul>
                 <li>CHARACTERS</li>
-                <li>COMICS</li>
+                <li class="current">COMICS</li>
                 <li>MOVIES</li>
                 <li>TV</li>
                 <li>GAMES</li>
@@ -16,7 +16,7 @@
             </ul>
         </div>
     </div>
-    
+
     <div>
         <img class="banner" src="{{ asset('images/jumbotron.jpg') }}" alt="">
     </div>

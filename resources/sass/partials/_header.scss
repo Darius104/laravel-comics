@@ -15,6 +15,10 @@
             color: gray;
             padding: 10px;
             cursor: pointer;
+
+            &.current{
+                color: $primary_color;
+            }
         }
     }
 }
