@@ -53,6 +53,9 @@ main {
   background-color: #1c1c1c;
   padding-top: 30px;
 }
+main.color {
+  background-color: white;
+}
 main .list {
   display: flex;
   flex-wrap: wrap;
@@ -69,4 +72,31 @@ main .list .card img {
 }
 main .list .card h3 {
   color: white;
+}
+main .card_info {
+  position: relative;
+}
+main .card_info .image {
+  width: 200px;
+  position: absolute;
+  top: -300px;
+  border: 2px solid white;
+}
+main .card_info h2 {
+  color: #003f5e;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+main .card_info .price {
+  background-color: #55ba59;
+  display: inline-block;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  border-bottom: 1px solid black;
+}
+main .card_info .description {
+  margin-top: 20px;
 }
